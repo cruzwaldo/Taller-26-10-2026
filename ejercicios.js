@@ -21,8 +21,20 @@
 
 // segundo punto del taller
 
-for (let i = 1; i <= 10; i++) {
-  console.log("7 x " + i + " = " + (7 * i));
-}
+// for (let i = 1; i <= 10; i++) {
+//   console.log("7 x " + i + " = " + (7 * i));
+// }
 
 //punto tres del taller
+
+function sumar(...numeros) {
+  let total = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    total += numeros[i];
+  }
+  return total;
+}
+
+console.log(sumar(4, 7)); // 11
+console.log(sumar(1, 7, 8)); // 16
+console.log(sumar(2, 2, 3, 5)); // 12
