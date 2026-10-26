@@ -1,33 +1,28 @@
+//primer punto del taller
+//Ejercicio 1. Encontrar el número mayor y menor
+
 
 // let list = [2, 5, 1, 8, 3, 7, 12, 44, 67, 5, 9, 15, 60];
-// let nume = 0;
-// let numa = 67;
 
-// for (let i = 0; i < list.length; i++) {
- 
-//     if(nume < list[i]){
-//         nume = list[i]
-//     }if(numa > list[i]){
-//         numa = list[i]
-//     }
+// let mayor = list[0];
+// let menor = list[0];
+
+// for (let i = 1; i < list.length; i++) {
+//   if (list[i] > mayor) {
+//     mayor = list[i];
+//   }
+//   if (list[i] < menor) {
+//     menor = list[i];
+//   }
 // }
 
-// console.log('el numero mayor es: '+ nume)
-// console.log('el numero menor es: '+ numa)
+// console.log("Número mayor:" + mayor);
+// console.log("Número menor:" + menor);
 
-let list = [2, 5, 1, 8, 3, 7, 12, 44, 67, 5, 9, 15, 60];
+// segundo punto del taller
 
-let mayor = list[0];
-let menor = list[0];
-
-for (let i = 1; i < list.length; i++) {
-  if (list[i] > mayor) {
-    mayor = list[i];
-  }
-  if (list[i] < menor) {
-    menor = list[i];
-  }
+for (let i = 1; i <= 10; i++) {
+  console.log("7 x " + i + " = " + (7 * i));
 }
 
-console.log("Número mayor:\n" + mayor);
-console.log("Número menor:\n" + menor);
+//punto tres del taller
